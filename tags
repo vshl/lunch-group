@@ -5,19 +5,25 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
 ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+AddGroupIdToEmployee	db/migrate/20200729070456_add_group_id_to_employee.rb	/^class AddGroupIdToEmployee < ActiveRecord::Migration[6.0]$/;"	c
 Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:LunchGrouper
 ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
 ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
 ApplicationJob	app/jobs/application_job.rb	/^class ApplicationJob < ActiveJob::Base$/;"	c
 ApplicationRecord	app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	c
 ApplicationSystemTestCase	test/application_system_test_case.rb	/^class ApplicationSystemTestCase < ActionDispatch::SystemTestCase$/;"	c
+CreateGroups	db/migrate/20200729070345_create_groups.rb	/^class CreateGroups < ActiveRecord::Migration[6.0]$/;"	c
+Employee	app/models/employee.rb	/^class Employee < ApplicationRecord$/;"	c
 EmployeesController	app/controllers/employees_controller.rb	/^class EmployeesController < ApplicationController$/;"	c
 Event	app/models/event.rb	/^class Event < ApplicationRecord$/;"	c
+Group	app/models/group.rb	/^class Group < ApplicationRecord$/;"	c
 LunchGrouper	config/application.rb	/^module LunchGrouper$/;"	m
 activate_bundler	bin/bundle	/^  def activate_bundler$/;"	f
 activation_error_handling	bin/bundle	/^  def activation_error_handling$/;"	f
 bundler_requirement	bin/bundle	/^  def bundler_requirement$/;"	f
 bundler_version	bin/bundle	/^  def bundler_version$/;"	f
+change	db/migrate/20200729070345_create_groups.rb	/^  def change$/;"	f	class:CreateGroups
+change	db/migrate/20200729070456_add_group_id_to_employee.rb	/^  def change$/;"	f	class:AddGroupIdToEmployee
 cli_arg_version	bin/bundle	/^  def cli_arg_version$/;"	f
 create	app/controllers/employees_controller.rb	/^  def create$/;"	f	class:EmployeesController
 destroy	app/controllers/employees_controller.rb	/^  def destroy$/;"	f	class:EmployeesController
