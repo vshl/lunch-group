@@ -11,6 +11,7 @@ ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/
 ApplicationJob	app/jobs/application_job.rb	/^class ApplicationJob < ActiveJob::Base$/;"	c
 ApplicationRecord	app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	c
 ApplicationSystemTestCase	test/application_system_test_case.rb	/^class ApplicationSystemTestCase < ActionDispatch::SystemTestCase$/;"	c
+Event	app/models/event.rb	/^class Event < ApplicationRecord$/;"	c
 LunchGrouper	config/application.rb	/^module LunchGrouper$/;"	m
 activate_bundler	bin/bundle	/^  def activate_bundler$/;"	f
 activation_error_handling	bin/bundle	/^  def activation_error_handling$/;"	f
