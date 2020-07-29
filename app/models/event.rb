@@ -3,7 +3,7 @@ class Event < ApplicationRecord
   validates :employee_id, uniqueness: true
 
   def self.going
-    where(lunch: true)
+    where(lunch: true).shuffle
   end
 
   def self.group_slices
