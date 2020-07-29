@@ -1,9 +1,41 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  lunch: false
+  lunch: true
   employee: one
 
 two:
   lunch: false
   employee: two
+
+tree:
+  lunch: true
+  employee: three
+
+four:
+  lunch: true
+  employee: four
+
+five:
+  lunch: true
+  employee: five
+
+six:
+  lunch: true
+  employee: six
+
+seven:
+  lunch: true
+  employee: seven
+
+eight:
+  lunch: true
+  employee: eight
+
+nine:
+  lunch: true
+  employee: nine
+
+ten:
+  lunch: false
+  employee: ten

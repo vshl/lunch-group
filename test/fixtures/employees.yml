@@ -1,7 +1,31 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
+  name: Vishal
 
 two:
-  name: MyString
+  name: John
+
+three:
+  name: Jane
+
+four:
+  name: Peter
+
+five:
+  name: Mary
+
+six:
+  name: Dave
+
+seven:
+  name: Albert
+
+eight:
+  name: Jen
+
+nine:
+  name: Erica
+
+ten:
+  name: Lucy
