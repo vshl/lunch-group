@@ -7,6 +7,6 @@ class Event < ApplicationRecord
   end
 
   def self.group_slices
-    going.each_slice(4)
+    going.in_groups(4, false)
   end
 end
