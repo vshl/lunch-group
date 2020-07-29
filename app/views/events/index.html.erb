@@ -6,6 +6,7 @@
   <thead>
     <tr>
       <th>Lunch</th>
+      <th>ID</th>
       <th>Employee</th>
       <th colspan="3"></th>
     </tr>
@@ -16,7 +17,7 @@
       <tr>
         <td><%= event.lunch %></td>
         <td><%= event.employee_id %></td>
-        <td><%= link_to 'Show', event %></td>
+        <td><%= event.employee.name %></td>
         <td><%= link_to 'Edit', edit_event_path(event) %></td>
         <td><%= link_to 'Destroy', event, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
@@ -26,4 +27,6 @@
 
 <br>
 
-<%= link_to 'New Event', new_event_path %>
+<%= link_to 'Register for lunch', new_employee_path %>
+<%= link_to 'RSVP for lunch', new_event_path %>
+<%= link_to 'Show Groups', 'groups#index' %>
